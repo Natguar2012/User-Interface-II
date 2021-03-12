@@ -47,9 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-.image {
-max-width: 15%;
-height: auto;
-width: 400px;
+#top {
+    display: flex;
+    flex-wrap: wrap;
 }
 
