@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+	display: flex;
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4F4F4F;
+    background-color:#FBFFFB;
+	align-items: flex-start;
+	overflow-x: hidden;
+}
+
+a{
+    text-decoration:none;
+    color:#266035;
+}
+section{
+    padding:4% 0;
+}
+h2, h3{
+    text-align:center;
+    color:#266035;
+    margin-bottom:2%;
+}
+h2{
+    font-size:4rem;
+}
+h3{
+    font-size:2rem;
+}
+
+*{
+	display: flex;
+	max-width: 100%;
+}
+
+#mainHeading .name {
+	display: flex;
+	background: rgb(102, 145, 146);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 5em;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#mainHeader{
+	display: flex;
+	background:rgb(102, 145, 146);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#mainHeader nav{
+	display: flex;
+	height: 3em;
+	background: rgb(102, 145, 146);
+	align-items: center;
+}
+
+#mainHeader nav a{
+	display: flex;
+	color:floralwhite;
+	border-radius: 10%;
+	background: black;
+	padding: 5px;
+	flex-direction: space-around;
+	}
+
+#codePic{
+	display:flex;
+	flex-direction:;
+	height:27em;
+	width:100%;
+	padding: 0;
+}
